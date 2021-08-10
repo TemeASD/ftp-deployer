@@ -6,7 +6,7 @@ Fast nodejs ftp deployment with github actions.
 
 ``` yml
 - name: FTP Deployer
-  uses: sand4rt/ftp-deployer@v1.3
+  uses: temeasd/ftp-deployer@v1.4
   with:
     sftp: false # optional
     host: ${{ secrets.FTP_HOST }} # e.g. ftp.host.com or sftp.host.com (without ftp:// or ftps://)
@@ -16,7 +16,7 @@ Fast nodejs ftp deployment with github actions.
     remote_folder: ${{ secrets.FTP_REMOTE_FOLDER }} # optional, remote path of your FTP server
     local_folder: dist # optional, local path, default is: dist
     cleanup: false # optional, remove existing files inside FTP remote folder
-    include: [] # optional, e.g. ['dist']
-    exclude: [] # optional, e.g. ['node_modules/**', '.git/**', '*.env']
-    pasive: true # optional
+    include: "" # optional, e.g. ['dist'], no spaces
+    exclude: "" # optional, e.g. and default ['node_modules/**', '.git/**', '*.env'], no spaces
+    passive: true # optional
 ```
