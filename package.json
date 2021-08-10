@@ -1,5 +1,5 @@
 {
-  "name": "ftp-deployer++",
+  "name": "ftp-deployer",
   "version": "1.4.0",
   "description": "Fast nodejs ftp deployment with github actions",
   "main": "index.js",
