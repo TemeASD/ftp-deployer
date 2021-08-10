@@ -1,6 +1,6 @@
 {
-  "name": "ftp-deployer",
-  "version": "1.0.0",
+  "name": "ftp-deployer++",
+  "version": "1.4.0",
   "description": "Fast nodejs ftp deployment with github actions",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "Actions",
     "Deploy"
   ],
-  "author": "sand4rt",
+  "author": "sand4rt and TemeASD",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TemeASD/ftp-deployer/issues"
