@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sand4rt/ftp-deployer.git"
+    "url": "git+https://github.com/TemeASD/ftp-deployer.git"
   },
   "keywords": [
     "FTP",
@@ -20,9 +20,9 @@
   "author": "sand4rt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sand4rt/ftp-deployer/issues"
+    "url": "https://github.com/TemeASD/ftp-deployer/issues"
   },
-  "homepage": "https://github.com/sand4rt/ftp-deployer#readme",
+  "homepage": "https://github.com/TemeASD/ftp-deployer#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "ftp-deploy": "^2.4.1"
