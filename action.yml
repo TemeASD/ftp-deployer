@@ -36,11 +36,11 @@ inputs:
   include:
     required: false
     default: false
-    description: 'includes folders, paths can't include spaces'
+    description: 'includes folders, paths cant include spaces'
   exclude:
     required: false
     default: false
-    description: 'exclude folders, paths can't include spaces'
+    description: 'exclude folders, paths cant include spaces'
   passive:
     required: false
     default: false
