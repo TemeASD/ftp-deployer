@@ -1,5 +1,5 @@
-name: 'FTP Deployer'
-author: 'sand4rt'
+name: 'FTP Deployer++'
+author: 'TemeASD'
 description: 'Fast and simple SFTP / FTP deployment with NodeJS'
 branding:
   color: white
@@ -36,12 +36,12 @@ inputs:
   include:
     required: false
     default: false
-    description: 'includes'
+    description: 'includes folders, paths can't include spaces'
   exclude:
     required: false
     default: false
-    description: 'exclude'
-  pasive:
+    description: 'exclude folders, paths can't include spaces'
+  passive:
     required: false
     default: false
     description: 'passive'
